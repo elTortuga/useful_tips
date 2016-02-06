@@ -1,0 +1,5 @@
+Basics are ignored for the time being
+
+The almighty track and pull all remote branches
+for remote in `git branch -r | grep -v /HEAD`; do git checkout --track $remote ; done
+source https://stackoverflow.com/questions/379081/track-all-remote-git-branches-as-local-branches/3099621#3099621 answered by tjmcewan
